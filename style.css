@@ -1,0 +1,111 @@
+body {
+    padding-block: 100px;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    min-height: 969px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.wki {
+    width: 492px
+}
+
+h1 {
+    color: #1D1B20; 
+    font-size: 36px; 
+    font-family: 'Outfit'; 
+    font-weight: 500; 
+    line-height: 46px; 
+    word-wrap: break-word;
+}
+
+.green__text {
+    color: #23A455; 
+    font-family: Outfit; 
+    font-weight: 500; 
+    line-height: 46px; 
+    word-wrap: break-word;
+}
+
+h3 {
+    color: #1D1B20; 
+    font-size: 24px; 
+    font-family: Outfit; 
+    font-weight: 400; 
+    line-height: 32px; 
+    word-wrap: break-word;
+    margin: 0px 0px 8px 0px;
+}
+
+p {
+    width: 282px; 
+    color: #383838; 
+    font-size: 16px; 
+    font-family: Outfit; 
+    font-weight: 400; 
+    line-height: 24px; 
+    letter-spacing: 0.02px; 
+    word-wrap: break-word;
+}
+
+svg {
+    stroke-width: 1px;
+    stroke: #000;
+}
+
+svg:nth-of-type(1) {
+    position: absolute;
+    top: 289px;
+    left: 158px;
+}
+
+svg:nth-of-type(2) {
+    position: absolute;
+    top: 655px;
+    left: 100px;
+}
+
+.sub__title {
+    color: #993366; 
+    font-size: 22px; 
+    font-family: Outfit; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word;
+    margin: 0px 0px 16px 0px;
+}
+
+.step {
+    display: flex;
+    gap: 20px;
+}
+
+.step__one {
+    align-self: flex-end;
+    width: 557px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
+.step__two {
+    width: 639px;
+    height: 250px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 435px;
+}
+
+.step__three {
+    width: 628px;
+    height: 250px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 438px;
+    top: 819px;
+}
