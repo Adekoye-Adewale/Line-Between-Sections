@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <div class="flex__section">
+
+        <div class="left">
+            <img src="./Step 1.png" alt="step one">
+        </div>
+
+        <div class="right">
+            <h2>
+                This is a test
+            </h2>
+            <p>
+                For any questions, issues, or challenges that may arise during the domain transfer process, our expert support team is accessible around the clock to provide you with the guidance you require.
+            </p>
+        </div>
+
+        <div>
+            <img src="./Step 2.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid__section">
+
+        <div class="left">
+            <img src="./Step 1.png" alt="step one">
+        </div>
+
+        <div class="right">
+            <h2>
+                This is a test
+            </h2>
+            <p>
+                For any questions, issues, or challenges that may arise during the domain transfer process, our expert support team is accessible around the clock to provide you with the guidance you require.
+            </p>
+        </div>
+
+        <div>
+            <img src="./Step 2.png" alt="step">
+        </div>
+    </div>
+
+    <style>
+        .flex__section {
+            display: flex;
+        }
+
+        .grid__section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            background-color: red;
+            gap: 10px;
+        }
+
+        .grid__section > div {
+            background-color: green;
+        }
+
+        .grid__section > div:first-child {
+            background-color: blue;
+        }
+
+        .grid__section > div:first-child {
+            justify-self: center;
+        }
+
+        .grid__section > div:nth-child(2) {
+            padding: 20px;
+            background-color: purple;
+        }
+
+    </style>
+</body>
+</html>
